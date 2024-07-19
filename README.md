@@ -11,7 +11,7 @@
   select $"{x}{y}{z} ");
 </pre>
 
-2. with LINQ method syntax and 1st overload of 'SelectMany'<br>
+2. with LINQ method syntax  and  1st overload of 'SelectMany'<br>
 (only with collection selector, needs nested select)
 
 <pre>
@@ -19,7 +19,7 @@
        .SelectMany(x => "123".Select(y => $"{x}{y} ")));
 </pre>
 
-3. with LINQ method syntax and 2nd overload of 'SelectMany'<br>
+3. with LINQ method syntax  and  2nd overload of 'SelectMany'<br>
 (with collection selector and result selector)
 
 <pre>
