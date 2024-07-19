@@ -20,7 +20,7 @@
 </pre>
 
 3. with LINQ method syntax, using the **2nd overload of 'SelectMany'**<br>
-(with collection selector and result selector)
+(with collection selector **and** result selector)
 
 <pre>
   "ABC".SelectMany(x => "123", (x, y) => $"{x}{y}")
