@@ -4,10 +4,10 @@
 
 1. with LINQ query syntax
 
-    from x in "ABC"
-    from y in "123"
-    from z in "123"
-    select $"{x}{y}{z} ");
+   from x in "ABC"
+   from y in "123"
+   from z in "123"
+   select $"{x}{y}{z} ");
 
 3. with LINQ method syntax and 1st overload of 'SelectMany'<br>
 (only with collection selector, needs nested select)
