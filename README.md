@@ -5,10 +5,10 @@
 1. with LINQ query syntax
 
 <pre>
-from x in "ABC"
-from y in "123"
-from z in "123"
-select $"{x}{y}{z} ");
+  from x in "ABC"
+  from y in "123"
+  from z in "123"
+  select $"{x}{y}{z} ");
 </pre>
 
 2. with LINQ method syntax and 1st overload of 'SelectMany'<br>
@@ -23,6 +23,6 @@ select $"{x}{y}{z} ");
 (with collection selector and result selector)
 
 <pre>
-   "ABC".SelectMany(x => "123", (x, y) => $"{x}{y}")
-   .SelectMany(x => "123", (x, y) => $"{x}{y} "));
+  "ABC".SelectMany(x => "123", (x, y) => $"{x}{y}")
+  .SelectMany(x => "123", (x, y) => $"{x}{y} "));
 </pre>
