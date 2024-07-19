@@ -1,1 +1,20 @@
-# LinqSelectManyExample
+# Comparing the 1st and 2nd overload of LINQ 'SelectMany' with LINQ Query Syntax
+
+### Example of getting all variations of 3 characters from 3 strings using LINQ
+
+1. with LINQ query syntax
+    from x in "ABC"
+    from y in "123"
+    from z in "123"
+    select $"{x}{y}{z} ");
+
+2. with LINQ method syntax and 1st overload of 'SelectMany'<br>
+(only with collection selector, needs nested select)
+    "ABC".SelectMany(x => "123".Select(y => $"{x}{y}"))
+    .SelectMany(x => "123".Select(y => $"{x}{y} ")));
+
+3. with LINQ method syntax and 2nd overload of 'SelectMany'<br>
+(with collection selector and result selector)
+
+    "ABC".SelectMany(x => "123", (x, y) => $"{x}{y}")
+    .SelectMany(x => "123", (x, y) => $"{x}{y} "));
