@@ -1,6 +1,6 @@
 # Comparing LINQ Query Syntax with the<br>1st and 2nd overload of LINQ 'SelectMany'
 
-### Example of getting all variations of 3 characters from 3 strings using LINQ
+### Example of getting all variations of 3 characters from 3 strings using LINQ:
 
 1. with LINQ query syntax
 
