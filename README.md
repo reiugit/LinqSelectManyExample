@@ -16,7 +16,7 @@
 
 <pre>
   "ABC".SelectMany(x => "123".Select(y => $"{x}{y}"))
-  .SelectMany(x => "123".Select(y => $"{x}{y} ")));
+       .SelectMany(x => "123".Select(y => $"{x}{y} ")));
 </pre>
 
 3. with LINQ method syntax and 2nd overload of 'SelectMany'<br>
@@ -24,5 +24,5 @@
 
 <pre>
   "ABC".SelectMany(x => "123", (x, y) => $"{x}{y}")
-  .SelectMany(x => "123", (x, y) => $"{x}{y} "));
+       .SelectMany(x => "123", (x, y) => $"{x}{y} "));
 </pre>
