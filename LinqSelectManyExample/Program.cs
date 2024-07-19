@@ -1,5 +1,5 @@
 ﻿
-/// Example of getting all variations of 3 characters from 3 strings using LINQ
+/// Example of using LINQ to get all variations of 3 characters from 3 strings
 
 // 1. with LINQ query syntax
 Print(from x in "ABC"
