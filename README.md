@@ -12,7 +12,7 @@
 </pre>
 
 2. with LINQ method syntax, using the **1st overload of 'SelectMany'**<br>
-(only with collection selector, needs nested select)
+(only with collection selector, this needs an additional nested select)
 
 <pre>
   "ABC".SelectMany(x => "123".Select(y => $"{x}{y}"))
