@@ -4,10 +4,10 @@
 
 1. with LINQ query syntax
 
-```<pre>
+<pre>```
   from x in "ABC"
   from y in "123"
-</pre>```
+```</pre>
 
 ~~~
   from x in "ABC"
