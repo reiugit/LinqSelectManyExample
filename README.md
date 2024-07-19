@@ -1,4 +1,4 @@
-# Comparing the 1st and 2nd overload of LINQ 'SelectMany' with LINQ Query Syntax
+# Comparing the 1st and 2nd overload of LINQ 'SelectMany'<br>with LINQ Query Syntax
 
 ### Example of getting all variations of 3 characters from 3 strings using LINQ
 
